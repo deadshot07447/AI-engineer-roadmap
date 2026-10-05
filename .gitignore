@@ -1,0 +1,69 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter / IPython Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# AI / ML Model files and checkpoints
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.h5
+checkpoints/
+models/
+
+# Large Datasets & local data directories
+data/
+datasets/
+dataset/
+*.parquet
+*.feather
+*.arrow
+*.tar
+*.tar.gz
+*.zip
+*.7z
+
+# Experiment tracking & logs
+wandb/
+runs/
+logs/
+*.log
+tensorboard/
